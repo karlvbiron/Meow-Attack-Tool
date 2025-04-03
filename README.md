@@ -75,10 +75,10 @@ Meow_Attack_Tool/
 
 ## Banners (Random Selection)
 
-![Meow_Attack_Tool_Banner_1](assets/1.png) 
-![Meow_Attack_Tool_Banner_2](assets/2.png)
-![Meow_Attack_Tool_Banner_3](assets/3.png)
 ![Meow_Attack_Tool_Banner_4](assets/4.png)
+![Meow_Attack_Tool_Banner_3](assets/3.png)
+![Meow_Attack_Tool_Banner_2](assets/2.png)
+![Meow_Attack_Tool_Banner_1](assets/1.png) 
 
 ## Attack Sequence Demonstartion
 
@@ -88,10 +88,10 @@ Meow_Attack_Tool/
 2. Check the INITIAL state of the database data via the `fetch_data.py` script 
 ![fetch_initial](assets/fetch_initial.png)
 
-3. Execute on the MongoDB dockerized target
+3. Execute on the MongoDB dockerized target (Credentialed)
 ![mongo_attack](assets/mongo_attack.png)
 
-4. Execute on the Elasticsearch dockerized target
+4. Execute on the Elasticsearch dockerized target (Non-Credentialed)
 ![els_attack](assets/els_attack.png)
 
 5. Check the AFTERMATH state of the database data via the `fetch_data.py` script 
