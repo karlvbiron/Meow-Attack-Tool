@@ -1,6 +1,6 @@
 # Meow Attack Simulation Tool
 
-![Meow Attack Banner](https://img.shields.io/badge/Security-Meow%20Attack%20Simulation-red)
+![Meow Attack Banner](https://img.shields.io/badge/Security-Meow%20Attack%20Tool-red)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -76,7 +76,7 @@ Meow_Attack_Tool/
 ## Banners (Random Selection)
 
 ![Meow_Attack_Tool_Banner_1](assets/1.png) 
-![Meow_Attack_Tool_Banner_2](assets/2.png) \
+![Meow_Attack_Tool_Banner_2](assets/2.png)
 ![Meow_Attack_Tool_Banner_3](assets/3.png)
 ![Meow_Attack_Tool_Banner_4](assets/4.png)
 
