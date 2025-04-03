@@ -1,4 +1,4 @@
-# Meow Attack Tool
+# Meow Attack Tool (Data Corruption Simulation Tool written in Python)
 
 ![Meow Attack Banner](https://img.shields.io/badge/Security-Meow%20Attack%20Tool-red)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
