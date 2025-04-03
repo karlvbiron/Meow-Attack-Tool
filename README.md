@@ -1,4 +1,4 @@
-# Meow Attack Simulation Tool
+# Meow Attack Tool
 
 ![Meow Attack Banner](https://img.shields.io/badge/Security-Meow%20Attack%20Tool-red)
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
