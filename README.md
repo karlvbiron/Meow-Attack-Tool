@@ -6,7 +6,14 @@
 
 ## NOTES
 
-The Meow Attack Script is now a Meow Attack Tool. The tool can currently accomodate for MongoDB and Elasticsearch targets. In additon, the credentialed attack feature has been added.
+The Meow Attack project has evolved beyond its initial script-based simulation and is now a full-fledged **Meow Attack Tool**. Due to this expansion, the tool has been moved to its own dedicated repository to better support ongoing development, modularity, and future enhancements.  
+
+Currently, the tool supports targeting **MongoDB** and **Elasticsearch** instances, with additional database targets planned for future releases. 
+
+A **credentialed attack feature** has also been introduced, allowing for more comprehensive security testing.  
+
+For reference to the original Meow Attack Simulation, visit: [Meow Attack Simulation Repo](https://github.com/karlvbiron/Meow_Attack_Simulation).
+
 
 ## Installation
 
@@ -66,19 +73,28 @@ Meow_Attack_Tool/
 └── meow_attack_tool.py
 ```
 
-## Banners 
+## Banners (Random Selection)
 
-![Meow_Attack_Tool_Banner_1](assets/Meow_Attack_Tool_Banner_1.png) 
-![Meow_Attack_Tool_Banner_2](assets/Meow_Attack_Tool_Banner_2.png) \
-![Meow_Attack_Tool_Banner_3](assets/Meow_Attack_Tool_Banner_3.png)
-![Meow_Attack_Tool_Banner_4](assets/Meow_Attack_Tool_Banner_4.png)
+![Meow_Attack_Tool_Banner_1](assets/1.png) 
+![Meow_Attack_Tool_Banner_2](assets/2.png) \
+![Meow_Attack_Tool_Banner_3](assets/3.png)
+![Meow_Attack_Tool_Banner_4](assets/4.png)
 
 ## Attack Sequence Demonstartion
 
+1. Start the Docker Database Targets
 ![docker_compose_up](assets/docker_compose_up.png)
+
+2. Check the INITIAL state of the database data via the `fetch_data.py` script 
 ![fetch_initial](assets/fetch_initial.png)
+
+3. Execute on the MongoDB dockerized target
 ![mongo_attack](assets/mongo_attack.png)
+
+4. Execute on the Elasticsearch dockerized target
 ![els_attack](assets/els_attack.png)
+
+5. Check the AFTERMATH state of the database data via the `fetch_data.py` script 
 ![fetch_final](assets/fetch_final.png)
 
 ## Disclaimer
